@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="claseS3.vistas.registrar"
+             Title="registrar">
+    <VerticalStackLayout>
+        <Label 
+            Text="Registrar Usuario"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            FontSize="15"/>
+
+
+
+        <Entry x:Name="txtNusuario"
+               FontSize="15"
+               Placeholder="Ingresar usuario"/>
+
+        <Entry x:Name="txtNPass"
+               FontSize="15"
+               Placeholder="Ingresar contraseña"/>
+        <Entry x:Name="txtPconfirmar"
+               FontSize="15"
+               Placeholder="Confirmar contraseña"/>
+
+
+        <Button x:Name="btnregistrarUsu" Text="Registrar usuario" Clicked="btnregistrarUsu_Clicked" />
+
+
+    </VerticalStackLayout>
+</ContentPage>
