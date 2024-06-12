@@ -24,6 +24,7 @@ public partial class registrar : ContentPage
         else
         {
 			DisplayAlert("Alerta", "valide la contraseña", "cerrar");
+
         }
 
     }
